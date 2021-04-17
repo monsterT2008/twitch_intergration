@@ -1,0 +1,19 @@
+{
+  "group": "twitch_intergration",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "twitch_intergration:giftstatue"
+    },
+    {
+      "item": "twitch_intergration:bits_1500"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "result": {
+    "item": "twitch_intergration:giftstatuecoal",
+    "count": 1
+  }
+}

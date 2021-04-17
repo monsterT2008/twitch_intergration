@@ -1,0 +1,19 @@
+{
+  "group": "twitch_intergration",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "twitch_intergration:giftstatue"
+    },
+    {
+      "item": "twitch_intergration:bits_100"
+    },
+    {
+      "item": "minecraft:granite"
+    }
+  ],
+  "result": {
+    "item": "twitch_intergration:giftstatuegranite",
+    "count": 1
+  }
+}

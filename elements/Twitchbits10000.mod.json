@@ -1,0 +1,11 @@
+{
+  "_fv": 13,
+  "_type": "command",
+  "definition": {
+    "commandName": "twitch_bits_10000",
+    "permissionLevel": 1,
+    "onCommandExecuted": {
+      "name": "Twitchbits10000CommandExecuted"
+    }
+  }
+}

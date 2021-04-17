@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "statuebow",
+        "1": "mainbodystatue",
+        "2": "lid"
+      },
+      "name": "default"
+    }
+  }
+}

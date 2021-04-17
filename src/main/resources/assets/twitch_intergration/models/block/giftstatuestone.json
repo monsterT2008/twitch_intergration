@@ -1,0 +1,10 @@
+{
+  "parent": "twitch_intergration:custom/gift_statue",
+  "textures": {
+    "all": "twitch_intergration:blocks/eorfj",
+    "particle": "twitch_intergration:blocks/eorfj",
+    "0": "twitch_intergration:blocks/statuebow",
+    "1": "twitch_intergration:blocks/mainbodystatue",
+    "2": "twitch_intergration:blocks/lid"
+  }
+}

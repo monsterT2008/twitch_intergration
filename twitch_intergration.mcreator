@@ -1,0 +1,746 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Giftstatue",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatue"
+    },
+    {
+      "name": "Giftbomb",
+      "type": "mob",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftbomb"
+    },
+    {
+      "name": "Giftbombloottable",
+      "type": "loottable",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftbombloottable"
+    },
+    {
+      "name": "Giftedsub5RightClickedInAir",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_5_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftedsub5",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_5"
+    },
+    {
+      "name": "Giftstatueonchest",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatueonchest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiftstatueOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatue_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftedsub10",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_10"
+    },
+    {
+      "name": "Giftedsub20",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_20"
+    },
+    {
+      "name": "Giftedsub50",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_50"
+    },
+    {
+      "name": "Giftedsub100",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_100"
+    },
+    {
+      "name": "Giftedsub100RightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_100_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftedsub50RightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_50_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftedsub20RightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_20_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftedsub10RightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftedsub_10_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchgiftedsub5CommandExecuted",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_5_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchgiftedsub5",
+      "type": "command",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_5"
+    },
+    {
+      "name": "Twitchgiftedsub10CommandExecuted",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_10_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchgiftedsub10",
+      "type": "command",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_10"
+    },
+    {
+      "name": "Twitchgiftedsub20",
+      "type": "command",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_20"
+    },
+    {
+      "name": "Twitchgiftedsub20CommandExecuted",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_20_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchgiftedsub50CommandExecuted",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_50_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchgiftedsub50",
+      "type": "command",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_50"
+    },
+    {
+      "name": "Twitchgiftedsub100CommandExecuted",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_100_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchgiftedsub100",
+      "type": "command",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchgiftedsub_100"
+    },
+    {
+      "name": "Bits100",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bits_100"
+    },
+    {
+      "name": "Bits1500",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bits_1500"
+    },
+    {
+      "name": "Bits5000",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bits_5000"
+    },
+    {
+      "name": "Bits10000",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bits_10000"
+    },
+    {
+      "name": "Twitchbits100CommandExecuted",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchbits_100_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchbits100",
+      "type": "command",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchbits_100"
+    },
+    {
+      "name": "Twitchbits1500CommandExecuted",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchbits_1500_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchbits1500",
+      "type": "command",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchbits_1500"
+    },
+    {
+      "name": "Twitchbits5000CommandExecuted",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchbits_5000_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchbits5000",
+      "type": "command",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchbits_5000"
+    },
+    {
+      "name": "Twitchbits10000CommandExecuted",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchbits_10000_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Twitchbits10000",
+      "type": "command",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "twitchbits_10000"
+    },
+    {
+      "name": "GiftstatuestoneOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuestone_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftstatuestone",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuestone"
+    },
+    {
+      "name": "GiftstatuegraniteOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuegranite_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftstatuegranite",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuegranite"
+    },
+    {
+      "name": "GiftstatueandesiteOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatueandesite_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftstatueandesite",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatueandesite"
+    },
+    {
+      "name": "GiftstatuecoalOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuecoal_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftstatuecoal",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuecoal"
+    },
+    {
+      "name": "GiftstatuegoldOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuegold_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftstatuegold",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuegold"
+    },
+    {
+      "name": "Giftstatuestonerecipie",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuestonerecipie"
+    },
+    {
+      "name": "Giftstatuegraniterecipie",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuegraniterecipie"
+    },
+    {
+      "name": "Giftstatueandesiterecipie",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatueandesiterecipie"
+    },
+    {
+      "name": "Giftstatuecoalrecipie",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuecoalrecipie"
+    },
+    {
+      "name": "Giftstatuegoldrecipie",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuegoldrecipie"
+    },
+    {
+      "name": "GiftstatuediamondOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuediamond_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Giftstatuediamond",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuediamond"
+    },
+    {
+      "name": "Giftstatuediamondrecipie",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giftstatuediamondrecipie"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.twitch_intergration.giftedsub_20": "20 gifted subs",
+      "block.twitch_intergration.giftstatuecoal": "Gift statue (coal)",
+      "item.monstercraft.bits_1500": "1500 bits",
+      "item.monstercraft.bits_100": "100 bits",
+      "block.monstercraft.giftstatuegranite": "Gift statue (granite)",
+      "item.monstercraft.giftedsub_20": "20 gifted subs",
+      "entity.twitch_intergration.giftbomb": "Gift bomb",
+      "block.twitch_intergration.giftstatuegold": "Gift statue (gold)",
+      "block.twitch_intergration.giftstatuegranite": "Gift statue (granite)",
+      "item.monstercraft.bits_5000": "5000 bits",
+      "block.twitch_intergration.giftstatuestone": "Gift statue (stone)",
+      "item.twitch_intergration.bits_1500": "1500 bits",
+      "block.monstercraft.giftstatueandesite": "Gift statue (andesite)",
+      "block.twitch_intergration.giftstatueandesite": "Gift statue (andesite)",
+      "item.twitch_intergration.bits_5000": "5000 bits",
+      "item.twitch_intergration.bits_10000": "10000 bits",
+      "block.monstercraft.giftstatue": "Gift statue (iron)",
+      "item.twitch_intergration.giftbomb_spawn_egg": "Gift bomb Spawn Egg",
+      "item.monstercraft.giftbomb_spawn_egg": "Gift bomb Spawn Egg",
+      "item.twitch_intergration.giftedsub_50": "50 gifted subs",
+      "block.twitch_intergration.giftstatuediamond": "Gift statue (diamond)",
+      "item.twitch_intergration.giftedsub_10": "10 gifted subs",
+      "item.monstercraft.giftedsub_50": "50 gifted subs",
+      "item.twitch_intergration.bits_100": "100 bits",
+      "item.monstercraft.giftedsub_10": "10 gifted subs",
+      "item.monstercraft.giftedsub_5": "5 gifted subs",
+      "block.monstercraft.giftstatuestone": "Gift statue (stone)",
+      "item.monstercraft.giftedsub_100": "100 gifted subs",
+      "item.twitch_intergration.giftedsub_5": "5 gifted subs",
+      "item.monstercraft.bits_10000": "10000 bits",
+      "item.twitch_intergration.giftedsub_100": "100 gifted subs",
+      "block.twitch_intergration.giftstatue": "Gift statue (iron)",
+      "entity.monstercraft.giftbomb": "Gift bomb"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "twitch_intergration",
+    "modName": "twitch intergration",
+    "version": "1.0.0",
+    "description": "a intergration client for twitch",
+    "author": "monsterT2008, Mcreator",
+    "websiteURL": "https://mcreator.net  --- mod maker web page",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.twitch_intergration",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}
